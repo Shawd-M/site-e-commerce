@@ -1,0 +1,1 @@
+<!-- Tentative d'utiliser des controllers mais, les données restaient bloqué au niveau du controllers du coups les données ne s'affichaient pas la vue. -->
