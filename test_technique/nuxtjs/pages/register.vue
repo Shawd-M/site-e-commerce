@@ -31,7 +31,7 @@
   <label>
     <p class="label-txt">ENTER YOUR PASSWORD</p>
     <input 
-      type="text"  
+      type="password"  
       class="input"
       name="password"
       v-model="password"
@@ -72,6 +72,7 @@
       } catch(error) {
           console.log(error);
         }
+        window.alert("Register !")
 
       },
     }
