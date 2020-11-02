@@ -15,7 +15,7 @@
   </label>
   <label>
     <p class="label-txt">ENTER YOUR PASSWORD</p>
-    <input type="text" 
+    <input type="password" 
     class="input"
     name="password"
     v-model="password"
@@ -24,9 +24,8 @@
       <div class="line"></div>
     </div>
   </label>
-    <button @click="login" >submit</button>
-
 </form>
+    <button @click="login" >submit</button>
 
 </div>
 </template>
